@@ -5,14 +5,12 @@ import subprocess
 import time
 from bs4 import BeautifulSoup, Comment
 
-
-
 CHROME_EXECUTABLE_PATH = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 CHROME_USER_DATA_DIR = "/Users/{your user name here}/Library/Application Support/Google/Chrome/"
 CHROME_PROFILE_DIRECTORY = "Default"
 REMOTE_DEBUGGING_PORT = 9222
 REMOTE_HOST = 'localhost'
-TARGET_URL = "https://chat.openai.com/"
+TARGET_URL = "https://www.jumia.com.ng/"
 
 def launch_browser():
     args = [
